@@ -63,4 +63,7 @@ public class MyUserPrincipal implements UserDetails {
     public String getFullName(){
         return user.getUsername();
     }
+    public String getName() {
+        return user.getName();
+    }
 }
